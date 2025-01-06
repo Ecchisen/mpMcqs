@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths-II MCQs Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .question {
+            margin-bottom: 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .options {
+            list-style: none;
+            padding: 0;
+        }
+        .option {
+            background: #fff;
+            padding: 10px;
+            margin: 5px 0;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .option:hover {
+            background: #f1f1f1;
+        }
+        .correct {
+            border-color: green;
+        }
+        .wrong {
+            border-color: red;
+        }
+        #finish-button {
+            width: 75px;
+            height: 35px;
+            border: none;
+            border-radius: 11px;
+            background-color: rgb(59, 94, 59);
+            color: whitesmoke;
+            position: fixed;
+            right: 20px;
+            bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>MPA MCQs Practice</h2>
+        <div id="mcq-container"></div>
+        <div id="quiz"></div>
+    </div>
+
+    <button id="finish-button" onclick="finishQuiz()">Finish</button>
+
+    <script src="./script.js"></script>
+</body>
+</html>

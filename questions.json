@@ -1,0 +1,882 @@
+[
+    {
+        "question": "Which of the following is the brain of a microcomputer system?",
+        "options": ["Memory", "Microprocessor", "Input Device", "Output Device"],
+        "answer": 1
+    },
+    {
+        "question": "Which unit of the microprocessor performs arithmetic and logical operations?",
+        "options": ["Control Unit", "Memory Unit", "ALU", "Register Unit"],
+        "answer": 2
+    },
+    {
+        "question": "Which register holds the address of the next instruction to be executed?",
+        "options": ["Instruction Register", "Program Counter", "Stack Pointer", "Accumulator"],
+        "answer": 1
+    },
+    {
+        "question": "What does the Control Unit do in a microprocessor?",
+        "options": ["Performs arithmetic operations", "Executes program instructions", "Controls data flow", "Stores data temporarily"],
+        "answer": 2
+    },
+    {
+        "question": "Which microprocessor was the first 8-bit microprocessor introduced by Intel?",
+        "options": ["4004", "8008", "8080", "8085"],
+        "answer": 1
+    },
+    {
+        "question": "The number of address lines required to address 64 KB of memory is: ",
+        "options": ["8", "16", "32", "64"],
+        "answer": 1
+    },
+    {
+        "question": "Which of the following is a 16-bit microprocessor?",
+        "options": ["8080", "8085", "8086", "4004"],
+        "answer": 2
+    },
+    {
+        "question": "In Intel 8085, how many general-purpose registers are available?",
+        "options": ["4", "6", "8", "10"],
+        "answer": 1
+    },
+    {
+        "question": "What is the function of the accumulator register?",
+        "options": ["Stores data permanently", "Holds intermediate results of arithmetic and logical operations", "Stores memory addresses", "Manages input/output operations"],
+        "answer": 1
+    },
+    {
+        "question": "Which of the following is not a machine cycle in 8085?",
+        "options": ["Opcode Fetch", "Memory Read", "Memory Write", "Stack Cycle"],
+        "answer": 3
+    },
+    {
+        "question": "Which signal is used to differentiate between memory and I/O operations?",
+        "options": ["RD", "WR", "IO/M", "ALE"],
+        "answer": 2
+    },
+    {
+        "question": "The 8085 microprocessor operates on which voltage level?",
+        "options": ["+3V", "+5V", "+9V", "+12V"],
+        "answer": 1
+    },
+    {
+        "question": "How many interrupt lines are there in 8085?",
+        "options": ["1", "3", "5", "7"],
+        "answer": 2
+    },
+    {
+        "question": "Which type of addressing mode is used in the instruction MOV A, B?",
+        "options": ["Immediate", "Direct", "Register", "Indirect"],
+        "answer": 2
+    },
+    {
+        "question": "What is the clock frequency of the 8085 microprocessor?",
+        "options": ["2 MHz", "3 MHz", "5 MHz", "10 MHz"],
+        "answer": 2
+    },
+    {
+        "question": "What is the size of the data bus in the 8086 microprocessor?",
+        "options": ["8-bit", "16-bit", "32-bit", "64-bit"],
+        "answer": 1
+    },
+    {
+        "question": "Which instruction in 8085 is used to load an immediate value into a register?",
+        "options": ["MOV", "MVI", "LDA", "STA"],
+        "answer": 1
+    },
+    {
+        "question": "Which flag is set when the result of an arithmetic operation is zero?",
+        "options": ["Carry Flag", "Zero Flag", "Sign Flag", "Parity Flag"],
+        "answer": 1
+    },
+    {
+        "question": "The instruction ADD B in 8085 performs which operation?",
+        "options": ["A = A + B", "B = A + B", "A = A - B", "B = B + A"],
+        "answer": 0
+    },
+    {
+        "question": "Which instruction is used to transfer control to a subroutine?",
+        "options": ["CALL", "JMP", "RET", "HLT"],
+        "answer": 0
+    },
+    {
+        "question": "What is the function of the NOP instruction in 8085?",
+        "options": ["Performs no operation", "Halts execution", "Clears registers", "Loads data"],
+        "answer": 0
+    },
+    {
+        "question": "Which microprocessor uses a segmented memory model?",
+        "options": ["8085", "8086", "8080", "4004"],
+        "answer": 1
+    },
+    {
+        "question": "Which signal is used to latch the address bus in 8085?",
+        "options": ["RD", "WR", "ALE", "IO/M"],
+        "answer": 2
+    },
+    {
+        "question": "Which flag in 8085 is affected by arithmetic and logical operations?",
+        "options": ["Sign Flag", "Zero Flag", "Parity Flag", "All of these"],
+        "answer": 3
+    },
+    {
+        "question": "Which instruction is used to load data from a specific memory address into the accumulator?",
+        "options": ["MOV", "MVI", "LDA", "STA"],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is NOT a component of a microprocessor?",
+        "options": ["ALU", "Control Unit", "Memory Unit", "Register Array"],
+        "answer": 2
+    },
+    {
+        "question": "Which bus is responsible for transferring data between CPU and memory?",
+        "options": ["Address Bus", "Control Bus", "Data Bus", "System Bus"],
+        "answer": 2
+    },
+    {
+        "question": "What is the word length of a typical 8086 microprocessor?",
+        "options": ["8-bit", "16-bit", "32-bit", "64-bit"],
+        "answer": 1
+    },
+    {
+        "question": "Which register in 8085 is used for temporary storage during arithmetic operations?",
+        "options": ["Accumulator", "Stack Pointer", "Program Counter", "Flag Register"],
+        "answer": 0
+    },
+    {
+        "question": "Which microprocessor was the first to introduce pipelining?",
+        "options": ["8085", "8086", "80286", "Pentium"],
+        "answer": 1
+    },
+    {
+        "question": "What is the primary function of the instruction decoder in a microprocessor?",
+        "options": ["Decoding the fetched instruction", "Fetching data", "Executing instructions", "Managing memory"],
+        "answer": 0
+    },
+    {
+        "question": "What is the size of the address bus in a 32-bit microprocessor?",
+        "options": ["8-bit", "16-bit", "32-bit", "64-bit"],
+        "answer": 2
+    },
+    {
+        "question": "Which flag in the flag register is set when an arithmetic operation results in zero?",
+        "options": ["Carry Flag", "Zero Flag", "Overflow Flag", "Sign Flag"],
+        "answer": 1
+    },
+    {
+        "question": "In which addressing mode is the operand specified directly in the instruction?",
+        "options": ["Immediate Addressing", "Direct Addressing", "Indirect Addressing", "Indexed Addressing"],
+        "answer": 0
+    },
+    {
+        "question": "What is the purpose of the stack pointer in a microprocessor?",
+        "options": ["Point to the next instruction", "Store temporary values", "Keep track of stack operations", "Control program execution"],
+        "answer": 2
+    },
+    {
+        "question": "Which type of microprocessor architecture uses a separate memory for program and data?",
+        "options": ["Von Neumann", "Harvard", "CISC", "RISC"],
+        "answer": 1
+    },
+    {
+        "question": "Which interrupt has the highest priority in 8085?",
+        "options": ["INTR", "TRAP", "RST 7.5", "RST 6.5"],
+        "answer": 1
+    },
+    {
+        "question": "What is the purpose of the ALE (Address Latch Enable) signal in 8085?",
+        "options": ["Enable address bus", "Demultiplex address/data bus", "Control data transfer", "Manage interrupts"],
+        "answer": 1
+    },
+    {
+        "question": "Which of the following is NOT a feature of RISC architecture?",
+        "options": ["Few instructions", "Complex addressing modes", "Single clock cycle execution", "Fixed instruction length"],
+        "answer": 1
+    },
+    {
+        "question": "Which register holds the address of the next instruction to be executed?",
+        "options": ["Stack Pointer", "Instruction Register", "Program Counter", "Memory Address Register"],
+        "answer": 2
+    },
+    {
+        "question": "What is the function of the HOLD signal in a microprocessor?",
+        "options": ["Halt execution", "Control memory access", "Request external device access", "Reset processor"],
+        "answer": 2
+    },
+    {
+        "question": "What is the function of the READY signal in microprocessors?",
+        "options": ["Indicates completion of instruction execution", "Pauses execution", "Synchronizes data transfer", "Indicates available memory"],
+        "answer": 2
+    },
+    {
+        "question": "Which microprocessor introduced superscalar architecture?",
+        "options": ["8086", "Pentium", "Core i3", "486DX"],
+        "answer": 1
+    },
+    {
+        "question": "Which instruction in 8085 is used to load the accumulator with a value from a memory location?",
+        "options": ["LDA", "STA", "MOV", "INX"],
+        "answer": 0
+    },
+    {
+        "question": "Which microprocessor register is used for loop counter operations?",
+        "options": ["CX", "AX", "BX", "DX"],
+        "answer": 0
+    },
+    {
+        "question": "Which instruction is used to enable interrupts in 8085?",
+        "options": ["EI", "DI", "HLT", "NOP"],
+        "answer": 0
+    },
+    {
+        "question": "Which instruction in 8086 is used for string operations?",
+        "options": ["MOV", "XCHG", "LODS", "STOS"],
+        "answer": 3
+    },
+    {
+        "question": "Which flag in 8085 is affected by a subtraction operation?",
+        "options": ["Carry Flag", "Sign Flag", "Auxiliary Carry Flag", "Zero Flag"],
+        "answer": 2
+    },
+    {
+        "question": "What is the function of the instruction RET in 8085?",
+        "options": ["Return from a subroutine", "Restart the processor", "Reset stack pointer", "Enable interrupts"],
+        "answer": 0
+    },
+    {
+        "question": "What is the function of the CALL instruction in a microprocessor?",
+        "options": ["Jump to a subroutine", "End program execution", "Clear register contents", "Load data into accumulator"],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following is true about microprogrammed control units?",
+        "options": [
+            "They use a sequence of microinstructions to control the CPU",
+            "They execute instructions without the need for control signals",
+            "They are faster than hardwired control units",
+            "They do not require a control memory"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "What is the purpose of a control memory in a microprogrammed control unit?",
+        "options": [
+            "To store the machine code instructions",
+            "To store microinstructions that generate control signals",
+            "To execute arithmetic operations",
+            "To store data and intermediate results"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In a microprogrammed control unit, microinstructions are stored in:",
+        "options": [
+            "Registers",
+            "Main memory",
+            "Control memory",
+            "Cache memory"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which type of microprogramming uses a minimal number of control signals to execute an instruction?",
+        "options": [
+            "Horizontal Microprogramming",
+            "Vertical Microprogramming",
+            "Parallel Microprogramming",
+            "Sequential Microprogramming"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "What is the primary disadvantage of microprogrammed control units?",
+        "options": [
+            "They are difficult to modify",
+            "They are slower than hardwired control units",
+            "They require complex circuits",
+            "They cannot handle interrupts"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which of the following is NOT a part of the basic computer organization?",
+        "options": [
+            "Control Unit",
+            "Arithmetic Logic Unit",
+            "Memory Unit",
+            "Power Supply Unit"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is the main function of the ALU (Arithmetic Logic Unit) in a computer?",
+        "options": [
+            "Storing instructions",
+            "Processing data using arithmetic and logical operations",
+            "Controlling input and output devices",
+            "Managing memory allocation"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "The system bus in a computer consists of which of the following?",
+        "options": [
+            "Control bus, Address bus, and Data bus",
+            "ALU, CU, and Registers",
+            "Cache memory, RAM, and ROM",
+            "All of the above"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which type of memory is used for temporary storage of frequently accessed data?",
+        "options": [
+            "Cache memory",
+            "Hard disk",
+            "Optical memory",
+            "Flash memory"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following is an advantage of pipelining in processors?",
+        "options": [
+            "It simplifies the CPU design",
+            "It increases instruction execution speed",
+            "It reduces hardware complexity",
+            "It eliminates the need for cache memory"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which of the following is a pipeline hazard?",
+        "options": [
+            "Data hazard",
+            "Control hazard",
+            "Structural hazard",
+            "All of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which type of pipeline hazard occurs due to data dependencies between instructions?",
+        "options": [
+            "Structural hazard",
+            "Data hazard",
+            "Control hazard",
+            "Logical hazard"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In a pipelined processor, what happens when a control hazard occurs?",
+        "options": [
+            "The pipeline is flushed or stalled",
+            "The ALU executes the instruction",
+            "The program counter is reset",
+            "None of these"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which technique is used to resolve data hazards in pipelining?",
+        "options": [
+            "Instruction Fetch",
+            "Data Forwarding",
+            "Cache Coherence",
+            "Branch Prediction"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "What is the primary goal of vector processing?",
+        "options": [
+            "To execute multiple instructions in a single cycle",
+            "To process multiple data elements using a single instruction",
+            "To improve cache memory performance",
+            "To reduce instruction decoding time"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which type of architecture is most commonly used for vector processing?",
+        "options": [
+            "SISD (Single Instruction Single Data)",
+            "MISD (Multiple Instruction Single Data)",
+            "SIMD (Single Instruction Multiple Data)",
+            "MIMD (Multiple Instruction Multiple Data)"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is an example of a vector processor?",
+        "options": [
+            "Intel 8086",
+            "Cray-1",
+            "Pentium 4",
+            "ARM Cortex-A9"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Vector processing is most useful in:",
+        "options": [
+            "Database queries",
+            "Scientific computations and simulations",
+            "Web browsing",
+            "Text processing"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which of the following operations benefits the most from vector processing?",
+        "options": [
+            "Matrix multiplication",
+            "Stack operations",
+            "Floating-point division",
+            "Program counter updates"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which type of pipeline hazard is caused by branch instructions?",
+        "options": [
+            "Control hazard",
+            "Data hazard",
+            "Structural hazard",
+            "Execution hazard"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which technique is commonly used to handle control hazards in pipelining?",
+        "options": [
+            "Data forwarding",
+            "Branch prediction",
+            "Register renaming",
+            "Cache replacement"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which architecture allows for multiple processors to execute different instructions on different data?",
+        "options": [
+            "SIMD",
+            "MIMD",
+            "SISD",
+            "MISD"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "What is the purpose of register renaming in pipelining?",
+        "options": [
+            "To reduce cache misses",
+            "To resolve data hazards",
+            "To eliminate branch mispredictions",
+            "To improve ALU performance"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which memory hierarchy level is the fastest?",
+        "options": [
+            "Cache memory",
+            "Main memory",
+            "Secondary storage",
+            "Virtual memory"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which number system is used by modern digital computers?",
+        "options": [
+            "Decimal",
+            "Octal",
+            "Binary",
+            "Hexadecimal"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following methods is used for fast multiplication of binary numbers?",
+        "options": [
+            "Booth’s Algorithm",
+            "Long Division Method",
+            "Shift-Add Algorithm",
+            "Floating-Point Multiplication"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "What is the result of adding binary numbers 1011 and 1101?",
+        "options": [
+            "10100",
+            "11000",
+            "10101",
+            "11100"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following is NOT a method of representing negative numbers in binary?",
+        "options": [
+            "Sign-Magnitude",
+            "One’s Complement",
+            "Two’s Complement",
+            "BCD Representation"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is the advantage of using Two’s Complement representation?",
+        "options": [
+            "It requires extra hardware",
+            "It allows simpler arithmetic operations",
+            "It increases memory usage",
+            "It cannot represent zero"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which operation is performed faster using bitwise operations in a processor?",
+        "options": [
+            "Division",
+            "Multiplication",
+            "Addition",
+            "Shifting"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What does an Arithmetic Logic Unit (ALU) do?",
+        "options": [
+            "Controls the flow of data",
+            "Stores data permanently",
+            "Performs arithmetic and logical operations",
+            "Manages memory addresses"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which hardware component is responsible for input and output operations?",
+        "options": [
+            "Arithmetic Unit",
+            "Control Unit",
+            "Memory Unit",
+            "I/O Controller"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following is an example of a serial communication interface?",
+        "options": [
+            "Parallel Port",
+            "USB",
+            "SATA",
+            "PCI"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which type of I/O technique allows the processor to execute other tasks while waiting for data transfer?",
+        "options": [
+            "Programmed I/O",
+            "Interrupt-driven I/O",
+            "Polling",
+            "Memory-mapped I/O"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which I/O method is used in high-speed data transfer between memory and devices?",
+        "options": [
+            "Direct Memory Access (DMA)",
+            "Interrupt-driven I/O",
+            "Polling",
+            "Programmed I/O"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which bus carries data between the CPU and peripheral devices?",
+        "options": [
+            "Address Bus",
+            "Data Bus",
+            "Control Bus",
+            "None of these"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which device manages the communication between the CPU and peripherals?",
+        "options": [
+            "Cache Controller",
+            "Interrupt Controller",
+            "I/O Controller",
+            "Arithmetic Logic Unit"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which memory type is volatile and requires power to retain data?",
+        "options": [
+            "RAM",
+            "ROM",
+            "Flash Memory",
+            "Hard Disk"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which memory is used to store firmware and cannot be modified easily?",
+        "options": [
+            "RAM",
+            "ROM",
+            "Cache",
+            "Registers"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which of the following is the fastest type of memory in a computer system?",
+        "options": [
+            "Cache Memory",
+            "RAM",
+            "Hard Disk",
+            "Flash Memory"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following is a type of non-volatile memory?",
+        "options": [
+            "DRAM",
+            "SRAM",
+            "Flash Memory",
+            "Cache Memory"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is the main function of cache memory?",
+        "options": [
+            "To store permanent data",
+            "To provide high-speed access to frequently used data",
+            "To increase hard disk storage capacity",
+            "To replace RAM"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which memory mapping technique is used in virtual memory systems?",
+        "options": [
+            "Direct Mapping",
+            "Fully Associative Mapping",
+            "Paging",
+            "Set-Associative Mapping"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which replacement policy is commonly used in cache memory?",
+        "options": [
+            "FIFO (First In First Out)",
+            "LRU (Least Recently Used)",
+            "Random Replacement",
+            "All of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which memory hierarchy level has the highest access time?",
+        "options": [
+            "Registers",
+            "Cache Memory",
+            "Main Memory",
+            "Secondary Storage"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is the main advantage of using memory interleaving?",
+        "options": [
+            "Increases memory access speed",
+            "Reduces power consumption",
+            "Minimizes hardware cost",
+            "Eliminates the need for cache memory"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following best describes memory-mapped I/O?",
+        "options": [
+            "I/O devices and memory share the same address space",
+            "Separate address space is used for I/O and memory",
+            "I/O operations require an extra processor",
+            "Memory is used as an input device"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which memory component holds the currently executing instruction?",
+        "options": [
+            "Cache Memory",
+            "Instruction Register",
+            "Program Counter",
+            "Main Memory"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which of the following is NOT a characteristic of RISC architecture?",
+        "options": [
+            "A large number of instructions",
+            "Fixed instruction length",
+            "Load/store architecture",
+            "Few addressing modes"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "In a pipelined processor, what does the term 'hazard' refer to?",
+        "options": [
+            "A situation that causes incorrect computation",
+            "A condition that leads to pipeline stall",
+            "An error in the instruction fetch stage",
+            "A type of cache miss"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which cache mapping technique allows a block to be placed in any location in the cache?",
+        "options": [
+            "Direct mapping",
+            "Associative mapping",
+            "Set-associative mapping",
+            "Indexed mapping"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "What is the primary purpose of a Translation Lookaside Buffer (TLB) in a virtual memory system?",
+        "options": [
+            "To store frequently used data",
+            "To map virtual addresses to physical addresses",
+            "To handle page faults",
+            "To manage cache coherence"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In microprogrammed control, what is a 'microinstruction'?",
+        "options": [
+            "A single machine-level instruction",
+            "A control word that specifies one or more micro-operations",
+            "An instruction that performs a context switch",
+            "A high-level programming command"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which of the following is a characteristic of a superscalar processor?",
+        "options": [
+            "Executes one instruction per clock cycle",
+            "Executes multiple instructions per clock cycle",
+            "Uses a single execution unit",
+            "Lacks pipelining"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "What is the main advantage of using a write-back cache over a write-through cache?",
+        "options": [
+            "Simpler implementation",
+            "Lower latency for write operations",
+            "Immediate data consistency",
+            "Reduced complexity in cache coherence protocols"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In a memory hierarchy, which level typically has the fastest access time?",
+        "options": [
+            "Main memory",
+            "L2 cache",
+            "L1 cache",
+            "Hard disk"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is the function of the 'MAR' (Memory Address Register) in a computer system?",
+        "options": [
+            "Holds the address of the next instruction to be executed",
+            "Stores the data being transferred to or from memory",
+            "Contains the address of the memory location to be accessed",
+            "Keeps track of the program counter"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is an example of a CISC (Complex Instruction Set Computer) architecture?",
+        "options": [
+            "MIPS",
+            "ARM",
+            "Intel x86",
+            "SPARC"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "In computer arithmetic, what is the 'two's complement' used for?",
+        "options": [
+            "Representing unsigned integers",
+            "Performing floating-point calculations",
+            "Representing negative integers",
+            "Encoding ASCII characters"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What does DMA stand for in the context of I/O operations?",
+        "options": [
+            "Direct Memory Access",
+            "Dynamic Memory Allocation",
+            "Data Management Architecture",
+            "Digital Microprocessor Array"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "In pipelining, what is 'instruction latency'?",
+        "options": [
+            "The time taken to execute a single instruction from start to finish",
+            "The delay between the start of one instruction and the start of the next",
+            "The number of instructions executed per unit time",
+            "The time taken to fetch an instruction from memory"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following is a method to handle data hazards in pipelined processors?",
+        "options": [
+            "Instruction prefetching",
+            "Branch prediction",
+            "Operand forwarding",
+            "Cache invalidation"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is the primary role of the control unit in a CPU?",
+        "options": [
+            "Perform arithmetic and logical operations",
+            "Manage data flow between the CPU and memory",
+            "Decode instructions and generate control signals",
+            "Store intermediate results during computation"
+        ],
+        "answer": 2
+    }
+]
